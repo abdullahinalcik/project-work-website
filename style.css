@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header .top {
+  padding: 2rem;
+  background-image: linear-gradient();
+  background-image: linear-gradient(0deg, #d9afd9 0%, #97d9e1 100%);
+  /* width: 100%; */
+}
+
+header .top .meşale img {
+  /* position: relative; */
+  left: 0;
+  /* display: inline-block; */
+  width: 4rem;
+  height: 6rem;
+}
+
+header .top .log {
+  position: absolute;
+  right: 1rem;
+  top: 5rem;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+header .top .log a:hover {
+  text-decoration: underline;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  text-align: center;
+  background-image: linear-gradient(45deg, #fbda61 0%, #ff5acd 100%);
+  padding: 2rem;
+  position: sticky;
+  top: 0;
+  /* width: 100vw; */
+  /* z-index: 1; */
+}
+nav a {
+  font-family: "DynaPuff", cursive;
+  margin: 1rem;
+  color: black;
+}
+nav a:hover {
+  color: white;
+}
+#resim {
+  position: relative;
+}
+main section img {
+  width: 100%;
+  height: 30rem;
+  /* position: fixed; */
+  margin-bottom: -7rem;
+}
+main section div.text {
+  position: relative;
+  top: -10rem;
+  left: 4rem;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 0.1rem;
+  display: inline-block;
+}
+main section h1 {
+  color: white;
+  font-weight: bold;
+  font-size: 3rem;
+}
+main section h2 {
+  color: red;
+  font-weight: bold;
+  font-size: 16px;
+  text-shadow: 0px 2px 4px grey;
+  /* display: inline-block; */
+}
+main section a {
+  /* border: 1px solid black; */
+  background-color: lightsteelblue;
+  padding: 1rem;
+  margin-top: rem;
+  border-radius: 1rem;
+  color: black;
+  font-weight: bolder;
+  text-decoration: none;
+}
+main section a:hover {
+  opacity: 0.4;
+}
+
+section.paragraf {
+  margin: 1rem;
+  padding: 1rem;
+  margin-right: 1rem;
+  font-family: "Open Sans", sans-serif;
+  text-align: justify;
+  width: 100%;
+}
+
+footer {
+  width: 3rem;
+  height: 3rem;
+  background-color: tomato;
+  border-radius: 50%;
+  font-size: 2.1rem;
+  position: fixed;
+  right: 2rem;
+  bottom: 2rem;
+}
+#slack {
+  color: white;
+  width: 5rem;
+  height: 5rem;
+  position: relative;
+  top: 16%;
+  left: 20%;
+  transform: translate(-80%, -80%);
+}
+footer:hover {
+  outline: 0.2rem solid tomato;
+  color: black;
+
+  outline-offset: 0.2rem;
+}
+#slack:hover {
+  color: black;
+}
